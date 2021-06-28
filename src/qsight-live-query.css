@@ -1,0 +1,205 @@
+/* CSS */
+.qv-object-qsight-live-reload .css_bars_row {
+	transition: all 0.3s ease;
+	float: left;
+	width: 98%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f0f0f0;
+	margin-bottom: 2px;
+	border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+.qv-object-qsight-live-reload .css_bars_bar {
+	float: left;
+	clear: left;
+	height: 30px;
+	background-color: #5f5f5f;
+}
+
+.qv-object-qsight-live-reload .css_bars_bar span {
+	font-weight: bold;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 7px;
+	color: #f0f0f0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 90%;
+	white-space: nowrap;
+}
+
+.qv-object-qsight-live-reload .css_bars_per {
+	position: relative;
+}
+
+.qv-object-qsight-live-reload .css_bars_per span {
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.qv-object-qsight-live-reload .css_bars_per span.over {
+	position: absolute;
+	right: 15px;
+	color: #f0f0f0;
+}
+
+.qv-object-qsight-live-reload .css_bars_row:hover, .qv-object-qsight-live-reload .css_bars_row.selected {
+	border: 1px solid #000;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+.myButton {
+	margin: 2px;
+    position: relative;
+    padding: 8px 16px;
+    background: #009845;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.myButton:active {
+    background: #007a63;
+}
+
+.myButton-blue{
+	background: #52A2CC;
+	margin: 2px;
+    position: relative;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.myButton__text {
+    font: bold 16px 'Source Sans Pro', san-serif;
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+.myButton--loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.message-error {
+	margin-top: 1em;
+	padding: 0.5em;
+	background-color: #fff6f6;
+    color: #9f3a38;
+	border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset,0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset,0 0 0 0 transparent;
+}
+
+.message-warning {
+	margin-top: 1em;
+	padding: 0.5em;
+	padding-left:3px;
+	background-color: #fff8db;
+    color: #b58105;
+	border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset,0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset,0 0 0 0 transparent;
+}
+
+.message-info {
+	margin-top: 1em;
+	padding: 0.5em;
+	padding-left:3px;
+	background-color: #dff0ff;
+    color: #2185d0;
+	border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset,0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset,0 0 0 0 transparent;
+}
+
+.message {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+/* width */
+#container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+#container::-webkit-scrollbar-thumb {
+  background: #888; 
+
+}
+
+/* Handle on hover */
+#container::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.qv-object-qsight-live-query2 .qv-inner-object. {
+Overflow:visible !important; 
+ z-index: 50000;
+}
+
+
+.date-picker{
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    min-width: 10em;
+    min-height: 1.21428571em;
+    background: #FFFFFF;
+    display: inline-block;
+    padding: 0.78571429em 2.1em 0.78571429em 1em;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 0.28571429rem;
+    -webkit-transition: width 0.1s ease, -webkit-box-shadow 0.1s ease;
+    transition: width 0.1s ease, -webkit-box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease, width 0.1s ease;
+    transition: box-shadow 0.1s ease, width 0.1s ease, -webkit-box-shadow 0.1s ease;
+}

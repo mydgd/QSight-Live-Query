@@ -1,0 +1,15 @@
+{
+	"name": "QSight Live Query",
+	"description": "Live Query Extension",
+	"type": "visualization",
+	"version": "1.0.1",
+	"icon": "extension",
+	"author": "Mustafa Aydogdu",
+	"homepage": "",
+	"keywords": "qlik-sense, reload, script",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
