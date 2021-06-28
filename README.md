@@ -5,7 +5,7 @@ In some situations it is impossible or not practicle to load a very large table 
 In these situations, extension allows end users to select a subset of data and only load this data into Qlik Sense application.
 
 ## Quick Start in 10 Steps
-1. Download and Install the extension
+1. [Download](https://github.com/mydgd/QSight-Live-Query/raw/main/qsight-live-query.zip) and Install the extension
 2. Create a Qlik Sense application which contains dimension tables and a fact table. Best practice is to have a star schema.
 3. Create a variable which we will use for keeping filters in where statement format.
 4. Add your extension into your application.
