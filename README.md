@@ -30,3 +30,6 @@ In these situations, extension allows end users to select a subset of data and o
 
 ## Advanced Settings
 To be added...
+
+## Troubleshooting
+To be added...
