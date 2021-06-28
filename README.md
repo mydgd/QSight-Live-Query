@@ -1,6 +1,6 @@
 # QSight Live Query Extension
 
-This Qlik Sense extension can dynamically filter large datasets in real time according to end users' selections for filters.
+This Qlik Sense extension can dynamically filter large datasets in real time according to end users' selections without loading full dataset into memory.
 In some situations it is impossible or not practicle to load a very large table with scheduled reloads. 
 In these situations, extension allows end users to select a subset of data and only load this data into Qlik Sense application.
 
