@@ -4,6 +4,8 @@ Similar to ODAG and Dynamic Views, this Qlik Sense extension can dynamically fil
 In some situations it is impossible or not practicle to load a very large table with scheduled reloads. 
 In these situations, extension allows end users to select a subset of data and only load this data into Qlik Sense application.
 
+![Dashboard](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dashboard.png?raw=true)
+
 ## Quick Start in 10 Steps
 1. [Download](https://github.com/mydgd/QSight-Live-Query/raw/main/qsight-live-query.zip) and Install the extension
 2. Create a Qlik Sense application which contains dimension tables and a fact table. Best practice is to have a star schema.
