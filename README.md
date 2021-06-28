@@ -6,7 +6,7 @@ In these situations, extension allows end users to select a subset of data and o
 
 ![Dashboard](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dashboard.png?raw=true)
 
-## Quick Start in 10 Steps
+## Quick Start
 1. [Download](https://github.com/mydgd/QSight-Live-Query/raw/main/qsight-live-query.zip) and Install the extension
 2. Create a Qlik Sense application which contains dimension tables and a fact table. Best practice is to have a star schema.
 3. Create a variable which we will use for keeping filters in where statement format.
@@ -28,4 +28,5 @@ In these situations, extension allows end users to select a subset of data and o
 
 ![Selections](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/selections.png?raw=true)
 
-
+## Advanced Settings
+To be added...
