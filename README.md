@@ -19,17 +19,17 @@ In these situations, extension allows end users to select a subset of data and o
     ![](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/white-space.png?raw=true)
     ![Dimension Properties 2](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dimension-properties-2.png?raw=true)
     
-7. Select datasource type and your variable in General Settings. 
+6. Select datasource type and your variable in General Settings. 
   
     ![General Settings](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/general-settings.png?raw=true)
     
-8. In your reload script, add "replace only" before your load statement. Thus, we will run a partial reload and only load this table without reloading dimension tables again and again.
+7. In your reload script, add "replace only" before your load statement. Thus, we will run a partial reload and only load this table without reloading dimension tables again and again.
 
-9. Add your variable at the end of your fact table SQL.
+8. Add your variable at the end of your fact table SQL.
 
 ![Reload Script](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/reload-script.png?raw=true)
 
-10. Select filters and reload your application directly from the application.
+9. Select filters and reload your application directly from the application.
 
 ![Selections](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/selections.png?raw=true)
 
