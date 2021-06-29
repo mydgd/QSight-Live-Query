@@ -58,7 +58,7 @@ In these situations, extension allows end users to select a subset of data and o
 
 **Select a variable for where statement (Mandatory):** This setting will list the variables that is created from the UI of Qlik Sense. Selected variable will be used to store the where statement that is built by the extension. You should use this variable in your reload script as where statement of your fact table.
 
-**Show Information:** This option will show and information box in the extension that shows where statement, selected variable and some query statistics. This is useful when you are configuring the extension. You can turn it of when you your application is ready for end users.
+**Show Information:** This option will show an information box in the extension that shows where statement, selected variable and some query statistics. This is useful when you are configuring the extension. You can turn it of when you your application is ready for end users.
 
 ![Information Box](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/information-box.png?raw=true)
 
