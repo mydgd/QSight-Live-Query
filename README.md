@@ -15,7 +15,7 @@ In these situations, extension allows end users to select a subset of data and o
    Target Key column is optional for Integer ans String keys, it is only needed when dimension key and corresponding key in fact table has different names.
    On the other hand, this field is mandatory for date data type.
    
-    ![Dimension Properties](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dimension-properties.png?raw=true)
+    ![Dimension Properties 1](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dimension-properties-1.png?raw=true) | ![Dimension Properties 2](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dimension-properties-2.png?raw=true)
 7. Select datasource type and your variable in General Settings.
     
     ![General Settings](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/general-settings.png?raw=true)
