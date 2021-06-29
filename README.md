@@ -60,6 +60,8 @@ In these situations, extension allows end users to select a subset of data and o
 
 **Show Information:** This option will show and information box in the extension that shows where statement, selected variable and some query statistics. This is useful when you are configuring the extension. You can turn it of when you your application is ready for end users.
 
+![Dimension Properties 2](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/information-box.png?raw=true)
+
 ## Troubleshooting
 
 * Use **show information** setting in order to understand the query that is built. You can use this same where statement in your database to understand if the query runs correctly or not.
