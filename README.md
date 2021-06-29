@@ -16,7 +16,7 @@ In these situations, extension allows end users to select a subset of data and o
    On the other hand, this field is mandatory for date data type.
    
     ![Dimension Properties 1](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dimension-properties-1.png?raw=true)
-    ![Dimension Properties 2](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/white-space.png?raw=true)
+    ![](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/white-space.png?raw=true)
     ![Dimension Properties 2](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dimension-properties-2.png?raw=true)
 7. Select datasource type and your variable in General Settings.
     
@@ -60,7 +60,7 @@ In these situations, extension allows end users to select a subset of data and o
 
 **Show Information:** This option will show and information box in the extension that shows where statement, selected variable and some query statistics. This is useful when you are configuring the extension. You can turn it of when you your application is ready for end users.
 
-![Dimension Properties 2](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/information-box.png?raw=true)
+![Information Box](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/information-box.png?raw=true)
 
 ## Troubleshooting
 
