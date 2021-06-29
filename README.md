@@ -1,8 +1,6 @@
 # QSight Live Query Extension
 
-Similar to ODAG and Dynamic Views, this Qlik Sense extension can dynamically filter large datasets in real time according to end users' selections without loading full dataset into memory.
-In some situations it is impossible or not practicle to load a very large table with scheduled reloads. 
-In these situations, this extension allows end users to select a subset of data and only load this data into Qlik Sense application.
+Similar to ODAG and Dynamic Views, this Qlik Sense extension can dynamically filter large datasets in real-time by end user's selections without loading the full dataset into memory. It is impossible or not practical to load a very large table with scheduled reloads in some situations. In these situations, this extension allows end-users to select a subset of data and only load this data into the Qlik Sense application.
 
 ![Dashboard](https://github.com/mydgd/QSight-Live-Query/blob/main/resources/dashboard.png?raw=true)
 
