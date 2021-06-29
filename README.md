@@ -30,6 +30,12 @@ In these situations, extension allows end users to select a subset of data and o
 
 ## Advanced Settings
 To be added...
+### Dimension Settings
+**Label (Optional):** Labels are displayed on top of each dropdown or date picker box. If you don't give a label to your dimension, it will autumatically use dimension or target key names.
+
+**Data Type for Keys:** This field specifies the type of field that will be used in where statement. Whenever possible use the type **Integer** since it will be faster to select from a database with an Integer key. Integer and String uses a dropdown for selection whereas date uses a date picker.
+
+
 
 ## Troubleshooting
 To be added...
